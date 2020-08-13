@@ -20,7 +20,6 @@ export default function App() {
       setStateList(states);
     };
     fetchState();
-
     navigator.geolocation.getCurrentPosition(geoSuccess);
   }, []);
 
